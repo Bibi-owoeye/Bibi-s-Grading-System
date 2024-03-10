@@ -10,19 +10,19 @@ function check() {
         document.getElementById('result').innerHTML = 'Fail'
     }
     else if (score >= 40 && score < 44) {
-        document.getElementById('result').innerHTML = 'E remain small, You for fail - E'
+        document.getElementById('result').innerHTML = 'Fair - E'
     }
     else if (score >= 44 && score < 50) {
-        document.getElementById('result').innerHTML = 'You have passed - D'
+        document.getElementById('result').innerHTML = 'Passed - D'
     }
     else if (score >= 50 && score < 60) {
-        document.getElementById('result').innerHTML = 'You have tried - C'
+        document.getElementById('result').innerHTML = 'Good - C'
     }
     else if (score >= 60 && score < 70) {
-        document.getElementById('result').innerHTML = 'You sef no small - B'
+        document.getElementById('result').innerHTML = 'Very Good - B'
     }
     else if (score >= 70 && score <= 100) {
-        document.getElementById('result').innerHTML = 'Do you want benz or amala and abula - A'
+        document.getElementById('result').innerHTML = 'Excellent - A'
     }
     else if (score > 100) {
         document.getElementById('result').innerHTML = 'Invalid'
