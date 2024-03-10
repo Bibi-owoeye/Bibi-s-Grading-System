@@ -7,7 +7,7 @@ function check() {
     if (score == "") {
         document.getElementById('result').innerHTML = 'Please input a number'
     }else if( score >= 0 && score < 40){
-        document.getElementById('result').innerHTML = 'Fail'
+        document.getElementById('result').innerHTML = 'Fail - F'
     }
     else if (score >= 40 && score < 44) {
         document.getElementById('result').innerHTML = 'Fair - E'
