@@ -23,6 +23,7 @@ function check() {
         document.getElementById('result6').innerHTML = ''
         var songFailure = new Audio('audio/Fail Sound Effect.mp3')
         songFailure.play()
+        
     }
     else if (score >= 40 && score < 44) {
         document.getElementById('result2').innerHTML = 'Fair - E'
@@ -70,6 +71,7 @@ function check() {
         document.getElementById('result5').innerHTML = ''
         var songSuccess = new Audio('audio/Stand up for the champions Lyrics.mp3')
         songSuccess.play()
+    
     }
     else if (score > 100) {
         document.getElementById('result7').innerHTML = 'Numbers must be between 0 - 100'
